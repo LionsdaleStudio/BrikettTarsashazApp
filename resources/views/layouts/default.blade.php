@@ -24,173 +24,180 @@
     <div id="app" class="app">
         <div class="container-fluid defaultContent">
             <div class="row">
-                <div class="col-2 with-vertical-line">
+                <div class="col-lg-2 col-md-3 col-sm-12 with-vertical-line">
                     <div class="flex-shrink-0 p-3">
                         <a href="/"
-                           class="text-center d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none">
+                            class="text-center d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none">
                             <span class="fs-5 fw-semibold">Brikett Társasházkezelő</span>
                         </a>
                         <hr>
                         <ul class="list-unstyled ps-0 menuSystem">
                             <li class="mb-1">
-                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                                <button
+                                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                    data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
                                     Törzsadatok
                                 </button>
                                 <div class="collapse" id="home-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Albetétkezelés</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Albetétkezelés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Analitika
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Analitika
                                                 törzs</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vevő
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vevő
                                                 törzs</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Szállító
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Szállító
                                                 törzs</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bank,
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bank,
                                                 pénztár
                                             </a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tárgyi
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tárgyi
                                                 eszközök
                                             </a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fő
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Fő
                                                 mérőórák
                                             </a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Levéltörzs
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Levéltörzs
                                             </a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Albetétcsoportok
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Albetétcsoportok
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="mb-1">
-                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                                <button
+                                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                    data-bs-toggle="collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">
                                     Könyvelés
                                 </button>
                                 <div class="collapse" id="dashboard-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tulajdonosi
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tulajdonosi
                                                 befizetés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Adóköteles
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Adóköteles
                                                 bevétel</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nem
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nem
                                                 adóköteles bevétel</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nem
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nem
                                                 adóköteles kiadás</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Anyagköltség</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Anyagköltség</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Egyéb
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Egyéb
                                                 költség</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Munkabér</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Munkabér</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tartozás
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tartozás
                                                 növekedés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tartozás
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tartozás
                                                 csökkenés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Követelés
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Követelés
                                                 növekedés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Követelés
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Követelés
                                                 csökkenés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Átvezetés
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Átvezetés
                                                 / pénzmozgás</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Általános
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Általános
                                                 könyvelés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Banki
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Banki
                                                 import</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="mb-1">
-                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                                    Tervezés, beszámolók
+                                <button
+                                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                    data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                                    Beszámolók
                                 </button>
                                 <div class="collapse" id="orders-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pénzügyi
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pénzügyi
                                                 tervek</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pénzügyi
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pénzügyi
                                                 év tervezés</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beszámolók</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beszámolók</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beszámolókészítés</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beszámolókészítés</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="border-top my-3"></li>
                             <li class="mb-1">
-                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                                        data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                                <button
+                                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                    data-bs-toggle="collapse" data-bs-target="#account-collapse"
+                                    aria-expanded="false">
                                     Felhasználói fiók
                                 </button>
                                 <div class="collapse" id="account-collapse">
                                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Új...</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Új...</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profil</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profil</a>
                                         </li>
                                         <li><a href="#"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beállítások</a>
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Beállítások</a>
                                         </li>
                                         <li>
                                             <a onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" href="{{ route('logout') }}"
-                                               class="link-body-emphasis d-inline-flex text-decoration-none rounded">Kijelentkezés</a>
+                                                     document.getElementById('logout-form').submit();"
+                                                href="{{ route('logout') }}"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Kijelentkezés</a>
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                                  class="d-none">
+                                                class="d-none">
                                                 @csrf
                                             </form>
                                         </li>
@@ -200,15 +207,22 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-10">
-                    <div class="row header p-4">
-                        <div class="col-12 text-center">
-                            <h3>Brikett társasházkezelő</h3>
+                <div class="col-lg-10 col-md-9 col-sm-12 pb-3">
+                    <div class="row mainContent">
+                        <div class="row bannerRow">
+                            <h1>Teszt</h1>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <div class="card contentCard">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Title</h4>
+                                        <p class="card-text">Text</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <main class="py-4">
-                        @yield('content')
-                    </main>
                 </div>
             </div>
         </div>

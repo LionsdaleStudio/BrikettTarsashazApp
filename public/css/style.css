@@ -49,6 +49,8 @@
 
 .header {
     background-color: #023477;
+    height: 10% !important;
+    max-height: 10% !important;
 }
 
 .header div h3 {
@@ -59,4 +61,18 @@
     border-right: 1px solid #ccc; /* Add a vertical line on the right */
     height: 100% !important;
     min-height: 100vh !important;
+}
+
+.mainContent {
+    min-height: 100%;
+}
+
+.contentCard {
+    min-height: 100%;
+}
+
+.bannerRow {
+    color: red;
+    max-height: min-content;
+    margin-bottom: 0px;
 }
